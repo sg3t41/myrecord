@@ -1,6 +1,6 @@
 import styles from './Button.module.css'
 
-export const Button = ({
+const Button = ({
   label,
   bgcolor,
   onClick,
@@ -16,3 +16,5 @@ export const Button = ({
     </button>
   )
 }
+
+export default Button
