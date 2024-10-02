@@ -1,6 +1,7 @@
-import styles from './Button.module.css'
+//import styles from './Button.module.css'
+import './Button.css'
 
-const Button = ({
+export const Button = ({
   label,
   bgcolor,
   onClick,
@@ -9,12 +10,10 @@ const Button = ({
   bgcolor: 'red' | 'blue'
   onClick: () => void
 }) => {
-  const bg = `bg--${bgcolor}`
+  const bg = `button__bg--${bgcolor}`
   return (
-    <button className={styles[bg]} onClick={onClick}>
+    <button className={bg} onClick={onClick}>
       {label}
     </button>
   )
 }
-
-export default Button

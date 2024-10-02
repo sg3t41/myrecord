@@ -1,6 +1,6 @@
 import React from 'react'
 import Markdown from 'react-markdown'
-import styles from './App.module.css'
+import './App.css'
 import { Button } from './components/Button/Button'
 import remarkGfm from 'remark-gfm'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -56,7 +56,7 @@ export default function App() {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={'app__container'}>
       <div>Hello World</div>
       <Button label={'button'} bgcolor={'red'} onClick={handleClick} />
       <Markdown
