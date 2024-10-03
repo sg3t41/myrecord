@@ -23,7 +23,8 @@
     "react-router-dom": "^6.26.2",
     "react-syntax-highlighter": "^15.5.0",
     "remark-gfm": "^4.0.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "sort-by-typescript": "^1.2.5"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
